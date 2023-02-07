@@ -14,3 +14,19 @@ C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\WPF Pokedex\obj\Debug\WPF 
 C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\WPF Pokedex\obj\Debug\WPF Pokedex.csproj.CoreCompileInputs.cache
 C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\WPF Pokedex\obj\Debug\WPF Pokedex.exe
 C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\WPF Pokedex\obj\Debug\WPF Pokedex.pdb
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\bin\Debug\WPF Pokedex.exe.config
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\bin\Debug\WPF Pokedex.exe
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\bin\Debug\WPF Pokedex.pdb
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\obj\Debug\WPF Pokedex.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\obj\Debug\WPF Pokedex.csproj.SuggestedBindingRedirects.cache
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\obj\Debug\MainWindow.g.cs
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\obj\Debug\App.g.cs
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\obj\Debug\WPF Pokedex_MarkupCompile.cache
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\obj\Debug\WPF Pokedex_MarkupCompile.lref
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\obj\Debug\MainWindow.baml
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\obj\Debug\WPF Pokedex.g.resources
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\obj\Debug\WPF_Pokedex.Properties.Resources.resources
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\obj\Debug\WPF Pokedex.csproj.GenerateResource.cache
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\obj\Debug\WPF Pokedex.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\obj\Debug\WPF Pokedex.exe
+C:\Users\danie\Documents\C#course\WPF_XML\WPF Pokedex\Trainer-Pokemon\WPF Pokedex\obj\Debug\WPF Pokedex.pdb

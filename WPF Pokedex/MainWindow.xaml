@@ -9,8 +9,10 @@
     <Grid>
         <Label Content="Trainer" HorizontalAlignment="Left" Margin="91,40,0,0" VerticalAlignment="Top" Height="28" Width="52"/>
         <ListBox Name="listTrainers" Margin="67,73,590,197" SelectionChanged="listTrainers_SelectionChanged"/>
-        <Label Content="Pokemon" HorizontalAlignment="Left" Margin="259,40,0,0" VerticalAlignment="Top" Height="28" Width="52"/>
+        <Label Content="Pokemon" HorizontalAlignment="Left" Margin="259,40,0,0" VerticalAlignment="Top" Height="28" Width="59"/>
         <ListBox x:Name="listPokemon" Margin="235,73,422,197"/>
+        <Label Content="Pokedex" HorizontalAlignment="Left" Margin="448,40,0,0" VerticalAlignment="Top" Height="28" Width="59"/>
+        <ListBox x:Name="listPokedex" Margin="424,73,233,118" />
 
     </Grid>
 </Window>

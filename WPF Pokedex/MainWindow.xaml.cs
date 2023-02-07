@@ -41,6 +41,9 @@ namespace WPF_Pokedex
 
             // calling the ShowTrainers method
             ShowTrainers();
+
+            // calling the ShowPokedex method
+            ShowPokedex();
         }
 
         // method to show all trainers
@@ -124,9 +127,47 @@ namespace WPF_Pokedex
 
 
         }
+
+        private void ShowPokedex()
+        {
+            try
+            {
+                // creates an SQL query
+                string query = "select * from Pokemon";
+
+                // runs the query onto our sqlConnection
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query, sqlConnection);
+
+                using (sqlDataAdapter)
+                {
+                    DataTable pokemonTable = new DataTable();
+
+                    // fills trainerTable
+                    sqlDataAdapter.Fill(pokemonTable);
+
+                    // column of our list is going to be the Name (from table)
+                    listPokedex.DisplayMemberPath = "Name";
+                    // value is going to be Id
+                    listPokedex.SelectedValuePath = "Id";
+                    // fill list content from pokemonTable
+                    listPokedex.ItemsSource = pokemonTable.DefaultView;
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+
+
+        }
         private void listTrainers_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             ShowPokemon();
         }
     }
-}
+        
+ }
+
