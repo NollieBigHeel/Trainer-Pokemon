@@ -1,0 +1,1 @@
+﻿select p.Name from Pokemon p inner join TrainerPokemon tp on p.Id = tp.PokemonId where tp.TrainerId = 2
