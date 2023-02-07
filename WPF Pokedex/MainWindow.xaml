@@ -5,14 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Pokedex"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Pokemon Trainers" Height="450" Width="800">
     <Grid>
         <Label Content="Trainer" HorizontalAlignment="Left" Margin="91,40,0,0" VerticalAlignment="Top" Height="28" Width="52"/>
         <ListBox Name="listTrainers" Margin="67,73,590,197" SelectionChanged="listTrainers_SelectionChanged"/>
         <Label Content="Pokemon" HorizontalAlignment="Left" Margin="259,40,0,0" VerticalAlignment="Top" Height="28" Width="59"/>
         <ListBox x:Name="listPokemon" Margin="235,73,422,197"/>
-        <Label Content="Pokedex" HorizontalAlignment="Left" Margin="448,40,0,0" VerticalAlignment="Top" Height="28" Width="59"/>
         <ListBox x:Name="listPokedex" Margin="424,73,233,118" />
+        <Button Content="Delete Trainer" HorizontalAlignment="Left" Margin="67,258,0,0" VerticalAlignment="Top" Width="143" Click="DeleteTrainer_Click"/>
+        <Button Content="Remove Pokemon" HorizontalAlignment="Left" Margin="235,258,0,0" VerticalAlignment="Top" Width="143"/>
+        <Button Content="Add Trainer" HorizontalAlignment="Left" Margin="67,310,0,0" VerticalAlignment="Top" Width="143" />
+        <Button Content="Add Pokemon to Trainer" HorizontalAlignment="Left" Margin="235,310,0,0" VerticalAlignment="Top" Width="143"/>
+        <Button Content="Update Trainer" HorizontalAlignment="Left" Margin="67,335,0,0" VerticalAlignment="Top" Width="143"/>
+        <Button Content="Update Pokemon" HorizontalAlignment="Left" Margin="235,335,0,0" VerticalAlignment="Top" Width="143"/>
+        <Button Content="Delete Pokemon from Pokedex" HorizontalAlignment="Left" Margin="424,335,0,0" VerticalAlignment="Top" Width="143"/>
+        <Button Content="Add Pokemon to Pokedex" HorizontalAlignment="Left" Margin="424,44,0,0" VerticalAlignment="Top" Width="143" />
+        <TextBox HorizontalAlignment="Left" Height="22" Margin="67,283,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="311"/>
 
     </Grid>
 </Window>

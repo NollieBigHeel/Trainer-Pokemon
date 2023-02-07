@@ -167,6 +167,42 @@ namespace WPF_Pokedex
         {
             ShowPokemon();
         }
+
+        private void DeleteTrainer_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                // check if it works
+                //MessageBox.Show("Delete Trainer was clicked");
+                ////// Another way to connect to SQL like ShowPokemon()
+
+                string query = "delete from Trainer where Id = @TrainerId";
+
+                SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
+
+                // opens connection to SQL
+                sqlConnection.Open();
+                // Adding parameter to sql command
+                sqlCommand.Parameters.AddWithValue("@TrainerId", listTrainers.SelectedValue);
+
+                // simple excecution
+                sqlCommand.ExecuteScalar();
+
+               
+            }
+            catch(Exception ex)
+            {
+               // MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                // close sql connectionm
+                sqlConnection.Close();
+
+                // shows all trainers method
+                ShowTrainers();
+            }
+        }
     }
         
  }
